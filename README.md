@@ -1,20 +1,15 @@
 # 安裝方式
 
 1. 安裝套件：
-```bash
+bash
 pip install ultralytics opencv-python
-```
-2. 確認 `best.pt`（模型權重）與 `test.py` 在同一個資料夾內
+2. 確認 `best.pt`（模型權重）與 `detect12345.ipynb` 在同一個資料夾內
 
 # 執行方式
 
-執行以下指令開啟攝影機進行即時偵測：
-
-```bash
-python test.py
-```
+開啟 `detect12345.ipynb`，使用Jupyter Notebook執行：
+- 程式會開啟攝影機進行即時偵測
 - 將交通號誌置於鏡頭前，畫面會顯示偵測框與類別名稱
-- 按下鍵盤q鍵結束程式
 
 # 使用之開源資源
 

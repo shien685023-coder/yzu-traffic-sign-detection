@@ -9,7 +9,7 @@ pip install ultralytics opencv-python
 
 開啟 `detect12345.ipynb`，使用Jupyter Notebook執行：
 - 程式會開啟攝影機進行即時偵測
-- 將交通號誌置於鏡頭前，畫面會顯示偵測框與類別名稱
+- 將交通標誌置於鏡頭前，畫面會顯示偵測框與類別名稱
 
 # 使用之開源資源
 
